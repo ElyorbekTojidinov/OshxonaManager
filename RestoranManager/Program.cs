@@ -22,8 +22,8 @@ namespace RestoranManager
                    .ReadFrom.Configuration(builder.Configuration)
                    .Enrich.FromLogContext()
                    .WriteTo.TeleSink(
-                   telegramApiKey: "6145369929:AAHjAWRu28XFwzG3zyAcohEhiUVzSe8euGk",
-                   telegramChatId: "619670300",
+                   telegramApiKey: "Telegram api key ",
+                   telegramChatId: "Telegram chat id ",
                    minimumLevel: LogEventLevel.Error)
                    .CreateLogger();
 
